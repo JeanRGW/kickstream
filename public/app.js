@@ -82,7 +82,7 @@ function renderGames() {
     card.className = 'game-card';
     card.innerHTML = `
       <div class="thumb-wrap">
-        <img src="${game.url_thumb || 'https://via.placeholder.com/600x340?text=KickStream'}" alt="${game.titulo || 'Jogo KickStream'}" loading="lazy" />
+        <img src="${game.url_thumb || 'https://placehold.co/600x340?text=KickStream'}" alt="${game.titulo || 'Jogo KickStream'}" loading="lazy" />
         ${getStatusBadge(game.status)}
       </div>
       <div class="game-content">

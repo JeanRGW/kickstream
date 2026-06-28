@@ -15,7 +15,7 @@
           "duracao_min": { "N": "110" },
           "avaliacao": { "N": "4.8" },
           "descricao": { "S": "Classico carioca valido pela fase de grupos do Cariocão 2025." },
-          "url_thumb": { "S": "https://via.placeholder.com/600x340?text=Flamengo+x+Fluminense" }
+          "url_thumb": { "S": "https://placehold.co/600x340?text=Flamengo+x+Fluminense" }
         }
       }
     },
@@ -34,7 +34,7 @@
           "duracao_min": { "N": "113" },
           "avaliacao": { "N": "4.9" },
           "descricao": { "S": "Derby paulista com grande publico e jogo equilibrado ate o fim." },
-          "url_thumb": { "S": "https://via.placeholder.com/600x340?text=Palmeiras+x+Corinthians" }
+          "url_thumb": { "S": "https://placehold.co/600x340?text=Palmeiras+x+Corinthians" }
         }
       }
     },
@@ -53,7 +53,7 @@
           "duracao_min": { "N": "108" },
           "avaliacao": { "N": "4.7" },
           "descricao": { "S": "Grenal decidido em detalhe no segundo tempo." },
-          "url_thumb": { "S": "https://via.placeholder.com/600x340?text=Gremio+x+Internacional" }
+          "url_thumb": { "S": "https://placehold.co/600x340?text=Gremio+x+Internacional" }
         }
       }
     },
@@ -72,7 +72,7 @@
           "duracao_min": { "N": "106" },
           "avaliacao": { "N": "4.6" },
           "descricao": { "S": "Classico mineiro com vitoria visitante e muita intensidade." },
-          "url_thumb": { "S": "https://via.placeholder.com/600x340?text=Atletico-MG+x+Cruzeiro" }
+          "url_thumb": { "S": "https://placehold.co/600x340?text=Atletico-MG+x+Cruzeiro" }
         }
       }
     },
@@ -91,7 +91,7 @@
           "duracao_min": { "N": "104" },
           "avaliacao": { "N": "4.5" },
           "descricao": { "S": "Classico paulista com dominio do time mandante." },
-          "url_thumb": { "S": "https://via.placeholder.com/600x340?text=Sao+Paulo+x+Santos" }
+          "url_thumb": { "S": "https://placehold.co/600x340?text=Sao+Paulo+x+Santos" }
         }
       }
     },
@@ -110,7 +110,7 @@
           "duracao_min": { "N": "112" },
           "avaliacao": { "N": "4.4" },
           "descricao": { "S": "Duelo carioca com empate e chances para os dois lados." },
-          "url_thumb": { "S": "https://via.placeholder.com/600x340?text=Botafogo+x+Vasco" }
+          "url_thumb": { "S": "https://placehold.co/600x340?text=Botafogo+x+Vasco" }
         }
       }
     },
@@ -129,7 +129,7 @@
           "duracao_min": { "N": "107" },
           "avaliacao": { "N": "4.3" },
           "descricao": { "S": "Ba-Vi com placar elastico e grande festa da torcida." },
-          "url_thumb": { "S": "https://via.placeholder.com/600x340?text=Bahia+x+Vitoria" }
+          "url_thumb": { "S": "https://placehold.co/600x340?text=Bahia+x+Vitoria" }
         }
       }
     },
@@ -148,7 +148,7 @@
           "duracao_min": { "N": "105" },
           "avaliacao": { "N": "4.2" },
           "descricao": { "S": "Classico dos Classicos decidido nos minutos finais." },
-          "url_thumb": { "S": "https://via.placeholder.com/600x340?text=Sport+x+Nautico" }
+          "url_thumb": { "S": "https://placehold.co/600x340?text=Sport+x+Nautico" }
         }
       }
     },
@@ -167,7 +167,7 @@
           "duracao_min": { "N": "109" },
           "avaliacao": { "N": "4.6" },
           "descricao": { "S": "Classico-Rei com virada e final emocionante." },
-          "url_thumb": { "S": "https://via.placeholder.com/600x340?text=Fortaleza+x+Ceara" }
+          "url_thumb": { "S": "https://placehold.co/600x340?text=Fortaleza+x+Ceara" }
         }
       }
     },
@@ -186,7 +186,7 @@
           "duracao_min": { "N": "120" },
           "avaliacao": { "N": "4.5" },
           "descricao": { "S": "Atletiba equilibrado com defesas decisivas." },
-          "url_thumb": { "S": "https://via.placeholder.com/600x340?text=Athletico-PR+x+Coritiba" }
+          "url_thumb": { "S": "https://placehold.co/600x340?text=Athletico-PR+x+Coritiba" }
         }
       }
     },
@@ -205,7 +205,7 @@
           "duracao_min": { "NULL": true },
           "avaliacao": { "NULL": true },
           "descricao": { "S": "Partida futura das Eliminatórias da Copa de 2026." },
-          "url_thumb": { "S": "https://via.placeholder.com/600x340?text=Brasil+x+Argentina" }
+          "url_thumb": { "S": "https://placehold.co/600x340?text=Brasil+x+Argentina" }
         }
       }
     },
@@ -224,7 +224,7 @@
           "duracao_min": { "NULL": true },
           "avaliacao": { "NULL": true },
           "descricao": { "S": "Jogo futuro do Mundial de Clubes FIFA." },
-          "url_thumb": { "S": "https://via.placeholder.com/600x340?text=Flamengo+x+PSG" }
+          "url_thumb": { "S": "https://placehold.co/600x340?text=Flamengo+x+PSG" }
         }
       }
     }
