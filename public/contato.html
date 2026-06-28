@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contato | KickStream</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/index.html" aria-label="KickStream inicio">
+        <span class="brand-mark">KS</span>
+        <span>KickStream</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Navegacao principal">
+        <a href="/index.html">Catalogo</a>
+        <a href="/sobre.html">Sobre</a>
+        <a href="/contato.html" aria-current="page">Contato</a>
+      </nav>
+    </header>
+
+    <main class="page-shell">
+      <section class="content-card contact-layout">
+        <div>
+          <p class="eyebrow">Fale conosco</p>
+          <h1>Contato KickStream</h1>
+          <p>
+            Este formulario e estatico para fins academicos. Em uma versao real, ele poderia enviar dados para
+            uma API, fila ou servico de e-mail gerenciado.
+          </p>
+        </div>
+
+        <form class="contact-form" onsubmit="event.preventDefault(); alert('Mensagem registrada para demonstracao.'); this.reset();">
+          <label>
+            Nome
+            <input type="text" name="nome" placeholder="Seu nome" required />
+          </label>
+          <label>
+            E-mail
+            <input type="email" name="email" placeholder="voce@email.com" required />
+          </label>
+          <label>
+            Mensagem
+            <textarea name="mensagem" rows="5" placeholder="Digite sua mensagem" required></textarea>
+          </label>
+          <button type="submit">Enviar mensagem</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>KickStream - Projeto Final de Computacao em Nuvem</p>
+    </footer>
+  </body>
+</html>

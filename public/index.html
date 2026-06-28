@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>KickStream | Catalogo de Jogos</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/index.html" aria-label="KickStream inicio">
+        <span class="brand-mark">KS</span>
+        <span>KickStream</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Navegacao principal">
+        <a href="/index.html" aria-current="page">Catalogo</a>
+        <a href="/sobre.html">Sobre</a>
+        <a href="/contato.html">Contato</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <p class="eyebrow">Futebol brasileiro sob demanda</p>
+          <h1>Classicos regionais, estaduais e jogos especiais em uma unica plataforma.</h1>
+          <p class="hero-copy">
+            Catalogo conectado ao DynamoDB, servido por EC2 atras de Load Balancer e Auto Scaling.
+          </p>
+          <a class="primary-action" href="#catalogo">Ver jogos</a>
+        </div>
+      </section>
+
+      <section id="catalogo" class="catalog-section" aria-labelledby="catalog-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Catalogo</p>
+            <h2 id="catalog-title">Jogos disponiveis</h2>
+          </div>
+          <p id="result-count" class="result-count">Carregando jogos...</p>
+        </div>
+
+        <form class="filters" aria-label="Filtros do catalogo">
+          <label>
+            Campeonato
+            <select id="championship-filter">
+              <option value="todos">Todos</option>
+            </select>
+          </label>
+
+          <label>
+            Status
+            <select id="status-filter">
+              <option value="todos">Todos</option>
+              <option value="Ao Vivo">Ao Vivo</option>
+              <option value="Disponível">Disponível</option>
+              <option value="Em Breve">Em Breve</option>
+            </select>
+          </label>
+        </form>
+
+        <div id="message" class="message" role="status"></div>
+        <div id="games-grid" class="games-grid" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>KickStream - Projeto Final de Computacao em Nuvem</p>
+      <p>Arquitetura: ALB + Auto Scaling + EC2 + Nginx + DynamoDB</p>
+    </footer>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

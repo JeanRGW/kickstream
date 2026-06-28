@@ -1,0 +1,232 @@
+{
+  "kickstream-jogos": [
+    {
+      "PutRequest": {
+        "Item": {
+          "jogoId": { "S": "J001" },
+          "titulo": { "S": "Flamengo x Fluminense" },
+          "campeonato": { "S": "Campeonato Carioca" },
+          "data": { "S": "2025-03-15" },
+          "horario": { "S": "16:00" },
+          "time_casa": { "S": "Flamengo" },
+          "time_visitante": { "S": "Fluminense" },
+          "placar": { "S": "3 x 1" },
+          "status": { "S": "Disponível" },
+          "duracao_min": { "N": "110" },
+          "avaliacao": { "N": "4.8" },
+          "descricao": { "S": "Classico carioca valido pela fase de grupos do Cariocão 2025." },
+          "url_thumb": { "S": "https://via.placeholder.com/600x340?text=Flamengo+x+Fluminense" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "jogoId": { "S": "J002" },
+          "titulo": { "S": "Palmeiras x Corinthians" },
+          "campeonato": { "S": "Campeonato Paulista" },
+          "data": { "S": "2025-03-22" },
+          "horario": { "S": "18:30" },
+          "time_casa": { "S": "Palmeiras" },
+          "time_visitante": { "S": "Corinthians" },
+          "placar": { "S": "2 x 2" },
+          "status": { "S": "Disponível" },
+          "duracao_min": { "N": "113" },
+          "avaliacao": { "N": "4.9" },
+          "descricao": { "S": "Derby paulista com grande publico e jogo equilibrado ate o fim." },
+          "url_thumb": { "S": "https://via.placeholder.com/600x340?text=Palmeiras+x+Corinthians" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "jogoId": { "S": "J003" },
+          "titulo": { "S": "Grêmio x Internacional" },
+          "campeonato": { "S": "Gauchão" },
+          "data": { "S": "2025-04-05" },
+          "horario": { "S": "16:00" },
+          "time_casa": { "S": "Grêmio" },
+          "time_visitante": { "S": "Internacional" },
+          "placar": { "S": "1 x 0" },
+          "status": { "S": "Disponível" },
+          "duracao_min": { "N": "108" },
+          "avaliacao": { "N": "4.7" },
+          "descricao": { "S": "Grenal decidido em detalhe no segundo tempo." },
+          "url_thumb": { "S": "https://via.placeholder.com/600x340?text=Gremio+x+Internacional" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "jogoId": { "S": "J004" },
+          "titulo": { "S": "Atlético-MG x Cruzeiro" },
+          "campeonato": { "S": "Campeonato Mineiro" },
+          "data": { "S": "2025-04-12" },
+          "horario": { "S": "18:30" },
+          "time_casa": { "S": "Atlético-MG" },
+          "time_visitante": { "S": "Cruzeiro" },
+          "placar": { "S": "0 x 1" },
+          "status": { "S": "Disponível" },
+          "duracao_min": { "N": "106" },
+          "avaliacao": { "N": "4.6" },
+          "descricao": { "S": "Classico mineiro com vitoria visitante e muita intensidade." },
+          "url_thumb": { "S": "https://via.placeholder.com/600x340?text=Atletico-MG+x+Cruzeiro" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "jogoId": { "S": "J005" },
+          "titulo": { "S": "São Paulo x Santos" },
+          "campeonato": { "S": "Campeonato Paulista" },
+          "data": { "S": "2025-04-19" },
+          "horario": { "S": "16:00" },
+          "time_casa": { "S": "São Paulo" },
+          "time_visitante": { "S": "Santos" },
+          "placar": { "S": "2 x 0" },
+          "status": { "S": "Disponível" },
+          "duracao_min": { "N": "104" },
+          "avaliacao": { "N": "4.5" },
+          "descricao": { "S": "Classico paulista com dominio do time mandante." },
+          "url_thumb": { "S": "https://via.placeholder.com/600x340?text=Sao+Paulo+x+Santos" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "jogoId": { "S": "J006" },
+          "titulo": { "S": "Botafogo x Vasco" },
+          "campeonato": { "S": "Campeonato Carioca" },
+          "data": { "S": "2025-04-26" },
+          "horario": { "S": "18:30" },
+          "time_casa": { "S": "Botafogo" },
+          "time_visitante": { "S": "Vasco" },
+          "placar": { "S": "1 x 1" },
+          "status": { "S": "Disponível" },
+          "duracao_min": { "N": "112" },
+          "avaliacao": { "N": "4.4" },
+          "descricao": { "S": "Duelo carioca com empate e chances para os dois lados." },
+          "url_thumb": { "S": "https://via.placeholder.com/600x340?text=Botafogo+x+Vasco" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "jogoId": { "S": "J007" },
+          "titulo": { "S": "Bahia x Vitória" },
+          "campeonato": { "S": "Campeonato Baiano" },
+          "data": { "S": "2025-05-03" },
+          "horario": { "S": "16:00" },
+          "time_casa": { "S": "Bahia" },
+          "time_visitante": { "S": "Vitória" },
+          "placar": { "S": "3 x 0" },
+          "status": { "S": "Disponível" },
+          "duracao_min": { "N": "107" },
+          "avaliacao": { "N": "4.3" },
+          "descricao": { "S": "Ba-Vi com placar elastico e grande festa da torcida." },
+          "url_thumb": { "S": "https://via.placeholder.com/600x340?text=Bahia+x+Vitoria" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "jogoId": { "S": "J008" },
+          "titulo": { "S": "Sport x Náutico" },
+          "campeonato": { "S": "Campeonato Pernambucano" },
+          "data": { "S": "2025-05-10" },
+          "horario": { "S": "16:00" },
+          "time_casa": { "S": "Sport" },
+          "time_visitante": { "S": "Náutico" },
+          "placar": { "S": "2 x 1" },
+          "status": { "S": "Disponível" },
+          "duracao_min": { "N": "105" },
+          "avaliacao": { "N": "4.2" },
+          "descricao": { "S": "Classico dos Classicos decidido nos minutos finais." },
+          "url_thumb": { "S": "https://via.placeholder.com/600x340?text=Sport+x+Nautico" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "jogoId": { "S": "J009" },
+          "titulo": { "S": "Fortaleza x Ceará" },
+          "campeonato": { "S": "Campeonato Cearense" },
+          "data": { "S": "2025-05-17" },
+          "horario": { "S": "18:30" },
+          "time_casa": { "S": "Fortaleza" },
+          "time_visitante": { "S": "Ceará" },
+          "placar": { "S": "1 x 2" },
+          "status": { "S": "Disponível" },
+          "duracao_min": { "N": "109" },
+          "avaliacao": { "N": "4.6" },
+          "descricao": { "S": "Classico-Rei com virada e final emocionante." },
+          "url_thumb": { "S": "https://via.placeholder.com/600x340?text=Fortaleza+x+Ceara" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "jogoId": { "S": "J010" },
+          "titulo": { "S": "Athletico-PR x Coritiba" },
+          "campeonato": { "S": "Campeonato Paranaense" },
+          "data": { "S": "2025-05-24" },
+          "horario": { "S": "16:00" },
+          "time_casa": { "S": "Athletico-PR" },
+          "time_visitante": { "S": "Coritiba" },
+          "placar": { "S": "0 x 0" },
+          "status": { "S": "Disponível" },
+          "duracao_min": { "N": "120" },
+          "avaliacao": { "N": "4.5" },
+          "descricao": { "S": "Atletiba equilibrado com defesas decisivas." },
+          "url_thumb": { "S": "https://via.placeholder.com/600x340?text=Athletico-PR+x+Coritiba" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "jogoId": { "S": "J011" },
+          "titulo": { "S": "Brasil x Argentina" },
+          "campeonato": { "S": "Eliminatórias Copa 2026" },
+          "data": { "S": "2025-06-05" },
+          "horario": { "S": "21:45" },
+          "time_casa": { "S": "Brasil" },
+          "time_visitante": { "S": "Argentina" },
+          "placar": { "S": "-" },
+          "status": { "S": "Em Breve" },
+          "duracao_min": { "NULL": true },
+          "avaliacao": { "NULL": true },
+          "descricao": { "S": "Partida futura das Eliminatórias da Copa de 2026." },
+          "url_thumb": { "S": "https://via.placeholder.com/600x340?text=Brasil+x+Argentina" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "jogoId": { "S": "J012" },
+          "titulo": { "S": "Flamengo x PSG" },
+          "campeonato": { "S": "Mundial de Clubes FIFA" },
+          "data": { "S": "2025-06-20" },
+          "horario": { "S": "15:00" },
+          "time_casa": { "S": "Flamengo" },
+          "time_visitante": { "S": "PSG" },
+          "placar": { "S": "-" },
+          "status": { "S": "Em Breve" },
+          "duracao_min": { "NULL": true },
+          "avaliacao": { "NULL": true },
+          "descricao": { "S": "Jogo futuro do Mundial de Clubes FIFA." },
+          "url_thumb": { "S": "https://via.placeholder.com/600x340?text=Flamengo+x+PSG" }
+        }
+      }
+    }
+  ]
+}

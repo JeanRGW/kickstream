@@ -1,0 +1,19 @@
+[Unit]
+Description=KickStream API
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/kickstream/api
+ExecStart=/usr/bin/node /opt/kickstream/api/server.js
+Restart=always
+RestartSec=5
+Environment=NODE_ENV=production
+Environment=PORT=3000
+Environment=AWS_REGION=us-east-1
+Environment=TABLE_NAME=kickstream-jogos
+User=ec2-user
+
+[Install]
+WantedBy=multi-user.target
